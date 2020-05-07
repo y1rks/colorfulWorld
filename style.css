@@ -1,0 +1,25 @@
+.main {
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.word {
+    display: inline-block;
+    font-size: 100px;
+    font-family:serif;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+.button:first-child {
+    margin-right: 150px;
+}
