@@ -53,5 +53,5 @@ document.addEventListener('DOMContentLoaded', function() {
     target1.textContent = colorList[Math.floor(Math.random() * colorList.length)];
     target2 = document.getElementById("word2");
     target2.textContent = wordList[Math.floor(Math.random() * wordList.length)];       
-    setInterval(changeWords, 5000);
+    setInterval(changeWords, 7000);
 });
